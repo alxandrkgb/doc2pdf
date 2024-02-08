@@ -9,15 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "docx-pdf": "^0.0.1",
+    "express": "^4.18.2",
+    "flowbite-react": "^0.7.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "mammoth": "^1.6.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dropzone": "^14.2.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
