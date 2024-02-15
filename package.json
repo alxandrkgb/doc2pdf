@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "node app/server.js"
   },
   "dependencies": {
     "docx-pdf": "^0.0.1",
+    "docxtopdf-cli": "^1.1.0",
     "express": "^4.18.2",
     "flowbite-react": "^0.7.2",
     "html2canvas": "^1.4.1",
